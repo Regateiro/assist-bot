@@ -1,0 +1,20 @@
+{
+    "FilebeatMetricsNotUpdated": {
+        "info": "",
+        "resolution": [
+            "Go to a node running an affected instance of filebeat and check the logs: `docker logs filebeat`"
+        ]
+    },
+    "FilebeatErrorsFiring": {
+        "info": "Filebeat is producing error logs.",
+        "resolution": [
+            "Go to a node running an affected instance of filebeat and check the logs: `docker logs filebeat`"
+        ]
+    },
+    "FilebeatNoLogs": {
+        "info": "Filebeat isn't producing logs.",
+        "resolution": [
+            "Go to a node running an affected instance of filebeat and check the logs: `docker logs filebeat`"
+        ]
+    }
+}
